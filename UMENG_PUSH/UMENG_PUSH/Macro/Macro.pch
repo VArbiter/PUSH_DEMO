@@ -1,0 +1,14 @@
+//
+//  Macro.pch
+//  RAC_DEMO
+//
+//  Created by 冯明庆 on 16/11/1.
+//  Copyright © 2016年 冯明庆. All rights reserved.
+//
+
+#ifndef Macro_pch
+#define Macro_pch
+
+#import "CCCommonDefine.h"
+
+#endif
