@@ -182,12 +182,7 @@ static NSString * _stringUmengPushKey = @"58185ab4aed17905e3002a27";
     if (applicationState == UIApplicationStateActive) {
         if (isLaunch) {
 #warning TODO >>>
-            /// 替换为 SodaNewsViewController ,
-            /// 控制器 header 文件 暴露的接口是 SodaNews *newsModel .
-            /// 用到的 , iid , coverUrl , commentNum . 想办法解决 .
-            /// 需要重新赋值 .
-            /// coverUrl 应该在 dataHandler 中的 SodaDetailNew -> coverurl
-            /// commentNum 在 dataHandler 中的 SodaNewsModel -> commentNum
+            /// 替换为 自己的控制器 ,
             
             UIViewController *viewC = nil;
             if (!viewC) {
